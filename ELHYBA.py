@@ -11,7 +11,7 @@ import asyncio, json, os, re
 api_id_bot = Mody.API_ID
 api_hash_bot = Mody.API_HASH
 token = Mody.ELHYBA
-bot = TelegramClient("Bot", api_id_bot, api_hash_bot).start(bot_token=bot_token)
+bot = TelegramClient("Bot", api_id_bot, api_hash_bot).start(bot_token=token)
 
 
 owner_id = [6581896306]
